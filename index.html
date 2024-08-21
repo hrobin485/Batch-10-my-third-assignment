@@ -1,11 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Third Assignment</title>
+    
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/460239c053.js" crossorigin="anonymous"></script>
+
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+     <!-- tailwind daisyUi cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font{
+            font-family: "Manrope", sans-serif;}
+            .hide{
+                display: none;
+            }
+    </style>
+
 </head>
-<body>
+<body class="font">
+    <header class="w-11/12 mx-auto">
+        <!-- navbar section -->
+        <div class="navbar mt-6">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost absolute
+                ml-80 -mt-5 lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow ml-60 ">
+                  <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div class="">
+              <i class="fa-solid fa-arrow-right -rotate-45 bg-[#7FEF5F] rounded-3xl p-2"></i>
+              <a class="btn btn-ghost text-3xl text-[#212121] font-extrabold bg-none">Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                
+              </ul>
+            </div>
+            <div class="navbar-end flex gap-5 invisible lg:visible">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              <a class="btn btn-warning rounded-3xl bg-[#ABEF5F]">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-gray-950 rounded-3xl p-2 text-white" ></i></a>
+            </div>
+          </div>
+          </div>
+    </header>
+  
+   
+
+    <main></main>
+    <footer></footer>
     
 </body>
 </html>
