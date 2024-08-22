@@ -24,12 +24,11 @@
                 display: none;
             }
     </style>
-
 </head>
-<body class="font">
+<body class="font bg-gray-100 py-7">
     <header class="w-11/12 mx-auto">
-        <!-- navbar section -->
-        <div class="navbar mt-6">
+      <!-- navbar section --> 
+        <div class="navbar ">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost absolute
@@ -50,7 +49,7 @@
                 <ul
                   tabindex="0"
                   class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow ml-60 ">
-                  <li><a>Home</a></li>
+                  <li><a class="font-extrabold">Home</a></li>
                   <li><a>Services</a></li>
                   <li><a>Portfolio</a></li>
                   <li><a>Blogs</a></li>
@@ -62,7 +61,7 @@
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
+                <li><a class="font-extrabold">Home</a></li>
                   <li><a>Services</a></li>
                   <li><a>Portfolio</a></li>
                   <li><a>Blogs</a></li>
@@ -71,17 +70,60 @@
               </ul>
             </div>
             <div class="navbar-end flex gap-5 invisible lg:visible">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-              <a class="btn btn-warning rounded-3xl bg-[#ABEF5F]">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-gray-950 rounded-3xl p-2 text-white" ></i></a>
+                <i class="fa-solid fa-magnifying-glass text-[#737373] bg-white rounded-[50%] p-2"></i>
+                <i class="fa-solid fa-cart-shopping text-gray-600 bg-white rounded-[50%] p-2"></i>
+              <a class="btn btn-warning rounded-3xl bg-[#ABEF5F] text-xl font-extrabold">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-gray-950 rounded-3xl p-2 text-white" ></i></a>
             </div>
           </div>
           </div>
+          <!--  nav banner  -->
+          <div>
+              <div class=" flex justify-center items-center" ><img src="images/banner.png" alt=""></div>
+              <div >
+                <div class="text-center">
+                  <h1 class="text-3xl lg:text-6xl font-extrabold lg:my-6">A barn house of this design has a striking appearance</h1>
+                <p class=" my-2 lg:my-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+                <a class=" my-2 lg:my-4 btn btn-warning rounded-3xl bg-[rgb(171,239,95,50%)] text-xl font-bold">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-3xl p-2 text-gray-900" ></i></a>
+                </div>
+              </div>
+            </div>
     </header>
-  
-   
 
-    <main></main>
+    <main class="w-11/12 mx-auto" >
+      <!-- banner first part -->
+      <div class="invisible lg:visible"><img src="images/Vector.png" alt=""></div>
+       <section class="lg:flex flex-col-2 gap-6 lg:mt-3">
+        <div class="ml-9  lg:w-[560px] lg:h-[560px]">
+          <div class="text-center lg:text-left">
+            <button class="btn btn-xs bg-[rgba(255,255,255,1)] text-gray-700 rounded-xl"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+          <h1 class="text-5xl font-bold my-3">We design thoughtful, <br> liveable spaces</h1>
+          <p class="my-5 lg:my-3">Barn homes have come a long way from their traditional countryside origin to the chic, contemporary structures you now see gracing architectural designs</p>
+          </div>
+          <div class="card lg:card-side bg-base-100 shadow-xl my-3 p-3">
+            <figure>
+              <img
+                src="images/commercial.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Commercial</h2>
+              <p> Commercial barn buildings give you the ultimate in cost savings, flexibility, and durability.</p>
+            </div>
+          </div>
+          <div class="card lg:card-side bg-base-100 shadow-xl  my-3 p-3">
+            <figure>
+              <img
+                src="images/residential.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Residential</h2>
+              <p>Barn houses are residences that originated as or are inspired by buildings that house livestock or store fodder or farm equipment.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class= ><img class="w-[350px] ml-8 lg:w-[570px] lg:h-[605px]" src="images/Rectangle.png" alt=""></div>
+       </section>
+    </main>
     <footer></footer>
     
 </body>
