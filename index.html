@@ -23,6 +23,15 @@
             .hide{
                 display: none;
             }
+            .bg{
+              background-image:url(./images/bg.jpg) ;
+              background-size:cover ;
+              margin-top: 40px;
+              margin-left: 10px;
+              margin-right: 10px;
+              margin-bottom: 10px;
+
+            }
     </style>
 </head>
 <body class="font bg-gray-100 py-7">
@@ -176,8 +185,10 @@
     </div>
       </section>
    </section>
-      <!-- portfolio section -->
-       <section class="bg-white p-16" >
+      
+       <section class="bg-white pt-16">
+        <!-- portfolio section -->
+       <section  >
         <div class="text-center">
           <button class="btn btn-xs bg-[rgba(171,239,95,0.2)] text-gray-700 rounded-xl"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
         <h1 class="text-5xl font-bold my-3">Our Latest Portfolio</h1>
@@ -240,17 +251,29 @@
         </div>
       </section>
       <!-- let's connect section -->
-       <section class="bg- ">
-        <img src="images/bg.jpg" alt="">
+       <section class="bg">
+        
+        <div class="text-center ">
+          <button class="btn btn-xs bg-[rgba(171,239,95,0.2)] text-gray-700 rounded-xl mt-14"><i class="fa-solid fa-arrow-right"></i> Let’s Connect</button>
+        <h1 class="text-5xl font-bold my-3">Let’s Discuss Next Project</h1>
+        <p class="my-7">This phrase is a signal to gather the team or stakeholders to align on the vision <br> and plan the work ahead.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-6  lg:grid-cols-2 mx-5 lg:mx-[235px]">
+        <div><input class="w-full p-3 rounded-3xl" type="text" placeholder="First Name*"></div>
+        <div><input class="w-full p-3 rounded-3xl" type="text" placeholder="Last Name*"></div>
+        <div><input class="w-full p-3 rounded-3xl" type="text" placeholder="Phone Number*"></div>
+        <div><input class="w-full p-3 rounded-3xl" type="text" placeholder="Email Address*"></div>
+        <div  class="lg:col-span-2">
+          <textarea rows="8"  class="lg:col-span-2 w-full p-3 rounded-3xl" type="text" placeholder="Write your message here"></textarea></div>
+          <div class="lg:col-span-2 mb-20"><a class="btn btn-warning rounded-3xl bg-[#ABEF5F] text-xl font-extrabold w-full ">Send Mail <i class="fa-solid fa-arrow-right -rotate-45 bg-gray-950 rounded-3xl p-2 text-white" ></i></a></div>
+      </div>
        </section>
-
-       
-      
+      </section>
     </main>
+    <!-- footer section -->
+    <footer>
 
-
-
-    <footer></footer>
+    </footer>
     
 </body>
 </html>
